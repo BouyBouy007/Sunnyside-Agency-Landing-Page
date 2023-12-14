@@ -1,0 +1,186 @@
+@media (max-width: 375px) {
+  body {
+    text-align: center;
+    min-width: 300px;
+  }
+
+  header {
+    background-image: url('../images/mobile/image-header.jpg');
+    height: 380px;
+    padding: 50px 20px;
+  }
+
+  .top-container {
+    position: relative;
+  }
+
+  .top-container-right-section {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: var(--white);
+    width: 100%;
+    top: 50px;
+    right: 0;
+    padding: 30px 0 0;
+  }
+
+  .top-container-right-section::before {
+    content: "";
+    position: absolute;
+    top: -20px; 
+    right: 0;
+    border-style: solid;
+    border-width: 50px; 
+    border-color: transparent transparent var(--white) transparent;
+    transform: rotate(-90deg);
+  }
+
+  .top-container-right-section button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  .header-button {
+    color: var( --very-dark-grayish-blue);
+  }
+
+  .contact-button {
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    margin: unset;
+  }
+
+  .contact-button:hover {
+    background-color: hsla(51, 100%, 49%, 0.6);
+  }
+
+  .mobile-hamburger-button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .show-menu {
+    display: flex;
+  }
+
+  h1 {
+    margin: 60px auto;
+    letter-spacing: 6px;
+    font-size: 25px;
+  }
+
+  .middle-container {
+    min-width: 300px;
+  }
+
+  .middle-row {
+    flex-direction: column-reverse;
+    width: 100%;
+    flex: unset;
+  }
+  
+  .middle-column {
+    flex: unset;
+  }
+
+  h2, h3 {
+    font-size: 30px;
+    margin: 50px 30px;
+  }
+
+  .transform-container p,
+  .stand-out-container p {
+    margin: 0 20px 50px;
+  }
+
+  .transform-container a,
+  .stand-out-container a {
+    margin: 0 auto 50px;
+  }
+
+  .stand-out-row,
+  .graphic-row {
+    flex-direction: column;
+  }
+
+  .transform-image-container {
+    background-image: url('../images/mobile/image-transform.jpg');
+    height: 500px;
+  }
+  
+  .stand-out-image-container {
+    background-image: url('../images/mobile/image-stand-out.jpg');
+    height: 500px;
+  }
+
+  .graphic-container {
+    background-image: url('../images/mobile/image-graphic-design.jpg');
+  }
+  
+  .photography-container {
+    background-image: url('../images/mobile/image-photography.jpg');
+  }
+
+  h4, h5 {
+    margin-top: 300px;
+  }
+
+  .graphic-container p,
+  .photography-container p {
+    margin: unset;
+    padding: 20px 20px 40px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  h6 {
+    margin: 60px auto;
+    font-size: 15px;
+  }
+
+  .client-container {
+    flex-direction: column;
+    padding: unset;
+  }
+
+  .client-details {
+    margin-bottom: 80px;
+  }
+
+  .client-comment {
+    margin: 30px 38px;
+  }
+
+  .footer-gallery-container {
+    flex-wrap: wrap;
+  }
+  
+  .gallery {
+    flex: 50%;
+  }
+
+  .milk-gallery {
+    background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
+  }
+  
+  .orange-gallery {
+    background-image: url('../images/mobile/image-gallery-orange.jpg');
+  }
+  
+  .cone-gallery {
+    background-image: url('../images/mobile/image-gallery-cone.jpg');
+  }
+  
+  .sugar-gallery {
+    background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
+  }
+  
+  .bottom-logo {
+    margin-top: 50px;
+  }
+}
